@@ -1,0 +1,74 @@
+@import
+url('https://fonts.googleapis.com/css?family=Bungee');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    z-index: 1;
+    color: white;
+    font-family: 'Bungee', cursive;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: #545454;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Bungee', cursive;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+button:hover {
+    background-color: #212121;
+}
+
+#output {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    font-family: 'Bungee', cursive;
+
+}
+
+#responseAge {
+    color: white;
+    font-family: 'Bungee', cursive;;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1em;
+}
+
+#responseR {
+    color: white;
+    font-family: 'Bungee', cursive;;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1em;
+}
